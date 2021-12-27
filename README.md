@@ -23,10 +23,10 @@ So to run the User service we choose to run as a normal user and that user name 
 So let's switch to the `roboshop` user and run the following commands.
 
 ```
-$ curl -s -L -o /tmp/user.zip "https://github.com/roboshop-devops-project/user/archive/main.zip"
+$ curl -s -L -o /tmp/user.zip "https://github.com/cicd-project/rs-user/archive/main.zip"
 $ cd /home/roboshop
 $ unzip /tmp/user.zip
-$ mv user-main user
+$ mv rs-user-main user
 $ cd /home/roboshop/user
 $ npm install 
 ```
